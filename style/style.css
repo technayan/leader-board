@@ -1,7 +1,105 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+/* Common CSS */
+
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background: #cfcfcf;
+    font-family: 'Poppins', sans-serif;
+    background: #f3f1ff;
+}
+
+/* Reset CSS */
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.section-title {
+    font-size: 24px;
+    color: #562eff;
+}
+hr {
+    border: 1px solid #d1d1d1;
+}
+
+/* Navbar CSS */
+
+nav {
+    height: 94px;
+    display: flex;
+    align-items: center;
+    background: #562eff;
+}
+nav .container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+.logo-text {
+    font-size: 24px;
+    color: #fff;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.logo-icon {
+    width: 40.5px;
+}
+.menu-area {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    margin-right: 36px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #ffc831;
+}
+
+/* Top Players and Blogs wrapper */
+
+.top-players-blogs-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 36px;
+    padding: 33px;
+}
+.top-players {
+    padding: 40px 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player-img {
+    width: 56px;
+    height: 56px;
+}
+.player-name {
+    margin-left: 18px;
+    font-size: 18px;
 }
