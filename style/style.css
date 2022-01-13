@@ -19,7 +19,7 @@ body {
 
 /* Reset CSS */
 .container {
-    width: 1140px;
+    width: 870px;
     margin: auto;
 }
 .section-title {
@@ -40,7 +40,6 @@ nav {
     background: #562eff;
 }
 nav .container {
-    width: 1140px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -139,4 +138,69 @@ nav .container {
 }
 .author-name:hover {
     color: #ffc831;
+}
+
+/* Latest Courses Section CSS */
+
+.latest-course-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 21px;
+    padding: 33px;
+}
+.courses {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.course {
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px rgba(231, 231, 231, 0.5);
+    width: 253px;
+}
+.course-img {
+    width: 224px;
+}
+.course-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    width: 220px;
+    margin-top: 10px;
+}
+.instractor {
+    color: #ed6b4f;
+    text-decoration: none;
+    margin-top: 7px;
+    display: inline-block;
+}
+.course-info {
+    margin-top: 10px;
+    width: 224px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star {
+    font-size: 12px;
+    color: #ffc014;
+}
+.unmarked {
+    color: #aeaeae70;
+}
+.course-info span {
+    margin-left: 5px;
+    color: #a2a2a2;
+    font-size: 14.5px;
+}
+.duration {
+    background: #ffe4e8;
+    font-size: 14.5px;
+    padding: 4px 7px;
+    border-radius: 15px;
+    color: #ff4a60;
 }
