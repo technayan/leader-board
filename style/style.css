@@ -28,6 +28,7 @@ body {
 }
 hr {
     border: 1px solid #d1d1d1;
+    margin-bottom: 33px;
 }
 
 /* Navbar CSS */
@@ -102,4 +103,40 @@ nav .container {
 .player-name {
     margin-left: 18px;
     font-size: 18px;
+}
+
+/* Top Blogs Section CSS */
+
+.top-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    margin-top: 31px;
+}
+.blog {
+    display: flex;
+
+}
+
+.blog-img {
+    width: 177px;
+}
+.blog-info {
+    margin-left: 16px;
+}
+.blog-title {
+    font-size: 20px;
+    width: 200px;
+}
+.author-info {
+    margin-top: 6px;
+    color: #9f9f9f;
+}
+.author-name {
+    color: #562eff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.author-name:hover {
+    color: #ffc831;
 }
